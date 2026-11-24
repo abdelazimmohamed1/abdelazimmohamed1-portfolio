@@ -29,3 +29,19 @@ const ob = new IntersectionObserver(
 );
 document.querySelectorAll(".reveal").forEach((e) => ob.observe(e));
 document.getElementById("year").textContent = new Date().getFullYear();
+
+/* ---------- جزيئات الهيرو ----------
+   بنعمل 26 نقطة صغيرة، ولكل واحدة مكان وحجم وسرعة عشوائية.
+   CSS هو اللي بيحركها (float-up). لو المستخدم طالب حركة أقل مش بنعمل حاجة. */
+const heroBg = document.getElementById("heroBg");
+const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+if (heroBg && !reduceMotion) {
+  for (let i = 0; i < 26; i++) {
+    const dot = document.createElement("i");
+    dot.style.left = Math.random() * 100 + "%";
+    dot.style.setProperty("--size", 2 + Math.random() * 3 + "px");
+    dot.style.setProperty("--dur", 9 + Math.random() * 10 + "s");
+    dot.style.setProperty("--delay", -Math.random() * 15 + "s");
+    heroBg.appendChild(dot);
+  }
+}

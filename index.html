@@ -30,6 +30,13 @@
 
     <main>
       <section class="hero" id="home">
+        <!-- خلفية الهيرو المتحركة: شعاع نور + ضباب + جزيئات (الجزيئات بيضيفها script.js) -->
+        <div class="hero-bg" id="heroBg" aria-hidden="true">
+          <span class="beam beam-1"></span>
+          <span class="beam beam-2"></span>
+          <span class="fog fog-1"></span>
+          <span class="fog fog-2"></span>
+        </div>
         <div class="wrap hero-grid">
           <div class="reveal show">
             <div class="eyebrow mono">Web Developer / DEPI</div>
@@ -238,7 +245,15 @@
           </div>
           <div class="projects">
             <article class="project reveal">
-              <div class="visual"></div>
+              <div class="visual">
+                <img
+                  src="images/makhzon.webp"
+                  alt="Makhzon dashboard showing sales numbers, low stock items and a sales chart (Arabic interface)"
+                  width="1000"
+                  height="625"
+                  loading="lazy"
+                />
+              </div>
               <div class="pnum">PROJECT / 01</div>
               <div class="pinfo">
                 <div class="mono">INVENTORY MANAGEMENT</div>
@@ -258,6 +273,78 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   >LIVE DEMO ↗</a
+                >
+              </div>
+            </article>
+
+            <!-- مشروع 2 -->
+            <article class="project reveal">
+              <div class="visual">
+                <img
+                  src="images/dokany.webp"
+                  alt="Dokany fashion store home page with a hero banner of women's clothing"
+                  width="1000"
+                  height="625"
+                  loading="lazy"
+                />
+              </div>
+              <div class="pnum">PROJECT / 02</div>
+              <div class="pinfo">
+                <div class="mono">E-COMMERCE FRONT-END</div>
+                <h3>Dokany — Fashion Store.</h3>
+                <p>
+                  A multi-page fashion store I built to practice. It has a shop page with search, sorting and price filter, product pages, a cart and a wishlist. Everything is saved in the browser (localStorage), there is no backend yet.
+                </p>
+                <div class="meta"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>BOOTSTRAP 5</span></div>
+                <a
+                  class="plink"
+                  href="https://dokany-omega.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LIVE DEMO ↗</a
+                >
+                <a
+                  class="plink"
+                  href="https://github.com/abdelazimmohamed1/Dokany"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >CODE ↗</a
+                >
+              </div>
+            </article>
+
+            <!-- مشروع 3 -->
+            <article class="project reveal">
+              <div class="visual">
+                <img
+                  src="images/naqaa.webp"
+                  alt="Naqaa dental clinic landing page with a booking form and the headline in Arabic"
+                  width="1000"
+                  height="625"
+                  loading="lazy"
+                />
+              </div>
+              <div class="pnum">PROJECT / 03</div>
+              <div class="pinfo">
+                <div class="mono">LANDING PAGE</div>
+                <h3>Naqaa — Dental Landing Page.</h3>
+                <p>
+                  A one-page Arabic (RTL) landing page for a dental clinic with a booking form. I kept it simple on purpose: HTML for the structure, CSS for the look and mobile layout, and a small script for the thank-you message.
+                </p>
+                <div class="meta"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span></div>
+                <a
+                  class="plink"
+                  href="https://naqaa-landing.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LIVE DEMO ↗</a
+                >
+                <a
+                  class="plink"
+                  href="https://github.com/abdelazimmohamed1/naqaa-landing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >CODE ↗</a
                 >
               </div>
             </article>

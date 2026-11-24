@@ -2,7 +2,7 @@
   --bg: #050605;
   --bg2: #0a0d0a;
   --text: #f4f7f2;
-  --muted: #858d86;
+  --muted: #a9b1aa; /* لون النص الخافت أفتح عشان القراءة أسهل */
   --g: #b8ff35;
   --line: rgba(244, 247, 242, 0.12);
   --mono: "DM Mono", monospace;
@@ -58,7 +58,7 @@ body:after {
   margin: auto;
 }
 .mono {
-  font: 500 0.72rem var(--mono);
+  font: 500 0.8rem var(--mono);
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--g);
@@ -102,7 +102,7 @@ nav.scrolled {
   list-style: none;
 }
 .links a {
-  font: 500 0.7rem var(--mono);
+  font: 500 0.8rem var(--mono);
   color: var(--muted);
   transition: 0.2s;
 }
@@ -143,7 +143,7 @@ nav.scrolled {
 h1 {
   font-size: clamp(4.3rem, 10vw, 9.5rem);
   line-height: 0.78;
-  letter-spacing: -0.1em;
+  letter-spacing: -0.06em;
   margin-top: 25px;
   font-weight: 800;
 }
@@ -166,7 +166,7 @@ h1 .g {
   display: inline-flex;
   padding: 14px 20px;
   border: 1px solid var(--line);
-  font: 500 0.7rem var(--mono);
+  font: 500 0.8rem var(--mono);
   transition: 0.3s;
 }
 .btn:hover {
@@ -187,7 +187,7 @@ h1 .g {
   margin-top: 27px;
 }
 .socials a {
-  font: 500 0.68rem var(--mono);
+  font: 500 0.8rem var(--mono);
   color: var(--muted);
 }
 .socials a:hover {
@@ -225,14 +225,14 @@ h1 .g {
 .portrait strong {
   display: block;
   color: var(--g);
-  font: 500 0.72rem var(--mono);
+  font: 500 0.8rem var(--mono);
   letter-spacing: 0.14em;
 }
 .portrait small {
   display: block;
   margin-top: 12px;
   color: var(--muted);
-  font: 400 0.63rem var(--mono);
+  font: 400 0.8rem var(--mono);
 }
 .tag {
   position: absolute;
@@ -241,7 +241,7 @@ h1 .g {
   padding: 12px 15px;
   background: var(--g);
   color: #050605;
-  font: 500 0.65rem var(--mono);
+  font: 500 0.8rem var(--mono);
   transform: rotate(-6deg);
 }
 .head {
@@ -253,7 +253,7 @@ h1 .g {
 .head h2 {
   font-size: clamp(2.8rem, 6vw, 6.4rem);
   line-height: 0.88;
-  letter-spacing: -0.09em;
+  letter-spacing: -0.05em;
 }
 .head p {
   max-width: 570px;
@@ -275,7 +275,7 @@ h1 .g {
 }
 .num {
   color: var(--g);
-  font: 500 0.7rem var(--mono);
+  font: 500 0.8rem var(--mono);
 }
 .about-card h3 {
   margin-top: 70px;
@@ -284,7 +284,7 @@ h1 .g {
   margin-top: 12px;
   color: var(--muted);
   line-height: 1.75;
-  font-size: 0.88rem;
+  font-size: 1rem;
 }
 .skills {
   display: flex;
@@ -311,7 +311,7 @@ h1 .g {
   gap: 28px;
   margin-top: 28px;
   flex-wrap: wrap;
-  font: 500 0.66rem var(--mono);
+  font: 500 0.8rem var(--mono);
   color: var(--muted);
 }
 .status i {
@@ -340,7 +340,7 @@ h1 .g {
   background: #b8ff3507;
 }
 .journey-num {
-  font: 500 0.7rem var(--mono);
+  font: 500 0.8rem var(--mono);
   color: var(--g);
 }
 .journey-title {
@@ -349,11 +349,11 @@ h1 .g {
 .journey-desc {
   margin-top: 7px;
   color: var(--muted);
-  font-size: 0.84rem;
+  font-size: 0.95rem;
 }
 .journey-status {
   text-align: right;
-  font: 500 0.64rem var(--mono);
+  font: 500 0.8rem var(--mono);
   color: var(--muted);
 }
 .journey-status.current {
@@ -400,7 +400,7 @@ h1 .g {
   top: 28px;
   left: 28px;
   color: var(--g);
-  font: 500 0.68rem var(--mono);
+  font: 500 0.8rem var(--mono);
 }
 .pinfo {
   position: absolute;
@@ -413,7 +413,7 @@ h1 .g {
 }
 .pinfo h3 {
   font-size: clamp(1.8rem, 4vw, 3.5rem);
-  letter-spacing: -0.07em;
+  letter-spacing: -0.04em;
 }
 .pinfo p {
   max-width: 600px;
@@ -431,12 +431,12 @@ h1 .g {
   padding: 6px 9px;
   border: 1px solid var(--line);
   color: var(--g);
-  font: 500 0.6rem var(--mono);
+  font: 500 0.8rem var(--mono);
 }
 .plink {
   display: inline-block;
   margin-top: 20px;
-  font: 500 0.68rem var(--mono);
+  font: 500 0.8rem var(--mono);
 }
 .plink:hover {
   color: var(--g);
@@ -450,7 +450,7 @@ h1 .g {
 .featured h2 {
   font-size: clamp(3rem, 7vw, 7rem);
   line-height: 0.83;
-  letter-spacing: -0.1em;
+  letter-spacing: -0.06em;
   margin-top: 20px;
 }
 .featured-grid {
@@ -475,7 +475,7 @@ h1 .g {
 .detail b {
   display: block;
   color: var(--g);
-  font: 500 0.63rem var(--mono);
+  font: 500 0.8rem var(--mono);
   margin-bottom: 7px;
 }
 .detail span {
@@ -491,7 +491,7 @@ h1 .g {
 .contact h2 {
   font-size: clamp(3rem, 7vw, 7rem);
   line-height: 0.83;
-  letter-spacing: -0.1em;
+  letter-spacing: -0.06em;
 }
 .contact-links {
   border-top: 1px solid var(--line);
@@ -502,7 +502,7 @@ h1 .g {
   gap: 15px;
   padding: 20px 0;
   border-bottom: 1px solid var(--line);
-  font: 500 0.7rem var(--mono);
+  font: 500 0.8rem var(--mono);
   color: var(--muted);
   transition: 0.2s;
 }
@@ -514,7 +514,7 @@ footer {
   border-top: 1px solid var(--line);
   padding: 35px 0;
   color: var(--muted);
-  font: 500 0.63rem var(--mono);
+  font: 500 0.8rem var(--mono);
 }
 .footer {
   display: flex;
@@ -593,7 +593,7 @@ footer {
     padding: 90px 0;
   }
   h1 {
-    font-size: 20vw;
+    font-size: 18vw; /* كان 20vw: صغرناه شوية عشان الاسم يتشاف كله بعد ما فتحنا المسافة بين الحروف */
   }
   .portrait {
     width: 75vw;
@@ -661,7 +661,7 @@ footer {
   padding: 9px 12px;
   border: 1px solid var(--line);
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 0.95rem;
 }
 .skill-group .skill:hover {
   border-color: var(--g);
@@ -698,7 +698,7 @@ footer {
 }
 .learning-card span {
   font-family: var(--mono);
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   color: var(--g);
   margin-bottom: 32px;
 }
@@ -709,7 +709,7 @@ footer {
 .learning-card p {
   color: var(--muted);
   line-height: 1.7;
-  font-size: 0.88rem;
+  font-size: 1rem;
 }
 @media (max-width: 700px) {
   .learning-card,
@@ -717,4 +717,238 @@ footer {
   .learning-card:nth-child(5) {
     grid-column: span 12;
   }
+}
+
+/* مسافة بين لينكين جوه كارت المشروع (Live Demo و Code) */
+.plink + .plink {
+  margin-left: 22px;
+}
+
+/* الكروت الجديدة نصها أطول، فبنزود الارتفاع عشان النص ما يغطيش على رقم المشروع */
+.project:not(:first-child) {
+  min-height: 540px;
+}
+@media (max-width: 560px) {
+  .project:not(:first-child) {
+    min-height: 590px;
+  }
+}
+
+/* صورة المشروع جوه الكارت: بتملا المساحة الفاضية وبتتقص من غير ما تتمط */
+.visual img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  opacity: 0.9;
+}
+.pnum {
+  z-index: 1; /* رقم المشروع فوق الصورة */
+  text-shadow: 0 1px 6px #000;
+}
+
+/* الصورة فوق والنص تحتها، عشان النص ما يغطيش على الصورة */
+.project,
+.project:first-child,
+.project:not(:first-child) {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+.visual {
+  position: relative;
+  inset: auto;
+  height: 250px;
+  flex-shrink: 0;
+}
+.project:first-child .visual {
+  height: 340px;
+}
+.pinfo {
+  position: relative;
+  background: none;
+  padding-top: 30px;
+}
+@media (max-width: 560px) {
+  .visual,
+  .project:first-child .visual {
+    height: 190px;
+  }
+  .pinfo {
+    padding-top: 25px;
+  }
+}
+
+/* خلفية غامقة لرقم المشروع عشان يبان فوق الصورة */
+.pnum {
+  background: #050605cc;
+  padding: 5px 9px;
+}
+
+/* ==========================================================
+   WOW LAYER: حركات الهيرو وكروت المشاريع
+   كله CSS عادي. أي حاجة متحركة بتقف لو الجهاز مفعّل reduce motion
+   ========================================================== */
+
+/* ---------- 1) خلفية الهيرو ---------- */
+.hero {
+  overflow: hidden; /* عشان الشعاع والضباب ما يطلعوش بره الهيرو */
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none; /* الخلفية ما تمنعش الضغط على الأزرار */
+}
+.hero .wrap {
+  position: relative;
+  z-index: 1; /* المحتوى فوق الخلفية */
+}
+
+/* شعاع النور: شكل شبه المثلث بيتحرك يمين وشمال ببطء */
+.beam {
+  position: absolute;
+  top: -10%;
+  width: 38vw;
+  height: 120%;
+  transform-origin: top center;
+  background: linear-gradient(to bottom, rgba(184, 255, 53, 0.22), transparent 75%);
+  clip-path: polygon(42% 0, 58% 0, 100% 100%, 0 100%);
+  filter: blur(22px);
+  opacity: 0.7;
+}
+.beam-1 {
+  right: 12%;
+  animation: sway 9s ease-in-out infinite alternate;
+}
+.beam-2 {
+  right: 32%;
+  width: 26vw;
+  opacity: 0.4;
+  animation: sway 13s ease-in-out infinite alternate-reverse;
+}
+@keyframes sway {
+  from { transform: rotate(-7deg); }
+  to   { transform: rotate(7deg); }
+}
+
+/* الضباب: دواير كبيرة ناعمة بتتحرك بطيء جدا */
+.fog {
+  position: absolute;
+  width: 70vw;
+  height: 60vh;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(184, 255, 53, 0.1), transparent);
+  filter: blur(40px);
+}
+.fog-1 {
+  bottom: -15%;
+  left: -20%;
+  animation: drift 26s ease-in-out infinite alternate;
+}
+.fog-2 {
+  top: 10%;
+  right: -25%;
+  background: radial-gradient(closest-side, rgba(244, 247, 242, 0.07), transparent);
+  animation: drift 34s ease-in-out infinite alternate-reverse;
+}
+@keyframes drift {
+  from { transform: translate(0, 0) scale(1); }
+  to   { transform: translate(18vw, -6vh) scale(1.25); }
+}
+
+/* الجزيئات الصغيرة (بتتعمل من script.js) بتطلع لفوق وتختفي */
+.hero-bg i {
+  position: absolute;
+  bottom: -10px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background: var(--g);
+  opacity: 0;
+  animation: float-up var(--dur) linear var(--delay) infinite;
+}
+@keyframes float-up {
+  0%   { transform: translateY(0); opacity: 0; }
+  15%  { opacity: 0.7; }
+  100% { transform: translateY(-85vh); opacity: 0; }
+}
+
+/* ---------- 2) حركة دخول الهيرو واحدة واحدة ---------- */
+/* بنستخدم opacity و translate بس (من غير blur) عشان الكلام يفضل واضح */
+.hero-grid > div > *,
+.portrait {
+  animation: rise-in 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.hero-grid > div > :nth-child(1) { animation-delay: 0.1s; }
+.hero-grid > div > :nth-child(2) { animation-delay: 0.25s; }
+.hero-grid > div > :nth-child(3) { animation-delay: 0.4s; }
+.hero-grid > div > :nth-child(4) { animation-delay: 0.55s; }
+.hero-grid > div > :nth-child(5) { animation-delay: 0.7s; }
+.portrait { animation-delay: 0.35s; }
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- 3) كروت المشاريع: حركة لما الماوس يقف عليها ---------- */
+.visual {
+  overflow: hidden;
+}
+.visual img {
+  transition: transform 0.8s ease, opacity 0.4s;
+}
+.project:hover .visual img {
+  transform: scale(1.07); /* الصورة بتقرب شوية */
+  opacity: 1;
+}
+.project:hover {
+  box-shadow: 0 18px 50px -18px #b8ff3555; /* نور أخضر تحت الكارت */
+}
+/* لمعة بتعدّي على الصورة */
+.visual:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -60%;
+  width: 40%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.18), transparent);
+  transform: skewX(-18deg);
+}
+.project:hover .visual:after {
+  left: 130%;
+  transition: left 0.9s ease;
+}
+.meta span {
+  transition: background 0.3s, color 0.3s;
+}
+.project:hover .meta span {
+  background: #b8ff3514;
+}
+.plink {
+  transition: color 0.2s, letter-spacing 0.3s;
+}
+.plink:hover {
+  letter-spacing: 0.08em;
+}
+
+/* ---------- 4) الموبايل: نخفف الشعاع والضباب ---------- */
+@media (max-width: 700px) {
+  .beam { width: 70vw; opacity: 0.45; }
+  .beam-2 { display: none; }
+  .fog { width: 120vw; }
+}
+
+/* ---------- 5) لو المستخدم طالب حركة أقل: نوقف كل الحركات ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .beam, .fog, .hero-bg i,
+  .hero-grid > div > *, .portrait {
+    animation: none !important;
+  }
+  .hero-bg i { display: none; }
+  .visual img, .visual:after { transition: none !important; }
+  html { scroll-behavior: auto; }
 }
